@@ -1,0 +1,88 @@
+.header {
+    gap: 3rem;
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    margin: 0;
+}
+
+.main {
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form {
+    max-width: 50rem;
+}
+
+.form label {
+    margin-top: 2em;
+}
+
+.form textarea {
+    margin-top: 0.7em;
+    background-color: #282424;
+    border-color: #282424;
+    color: #ddd6cb;
+    border-radius: 10px;
+}
+
+.form div input {
+    margin-top: 0.7em;
+    height: 3em;
+    background-color: #282424;
+    color: #ddd6cb;
+    border-radius: 10px;
+    border: none;
+}
+
+.cta {
+    font-size: 1.5rem;
+    /*display: flex;*/
+    gap: 1rem;
+    text-align: right;
+}
+
+.cta button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    width: 12em;
+    height: 4em;
+}
+
+.cta button:hover,
+.cta button:active {
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

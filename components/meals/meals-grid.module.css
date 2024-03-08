@@ -1,0 +1,12 @@
+.meals {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    /*Defines the columns of the grid. It creates as many columns as possible (auto-fill) with a minimum width of 20 rems
+     and a maximum width of 1 fraction unit (1fr) to distribute the available space evenly among the columns.*/
+    grid-gap: 5rem;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+}
